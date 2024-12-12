@@ -1,0 +1,15 @@
+[Unit]
+Description=evemds - eve metadata server
+After=network.target
+
+[Service]
+User=evemds
+
+WorkingDirectory=/opt/evemds/
+LimitNOFILE=4096
+ExecStart=/opt/evemds/venv/bin/uvicorn main:app --port 9001 --host 0.0.0.0
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

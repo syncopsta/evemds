@@ -1,0 +1,9 @@
+hosts:
+  dbserver.example.com:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2E... admin@company.com"
+      - "ssh-rsa AAAAB3N5aD1eaFE... admin2@company.com"
+
+  fallback.evectl:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDuOa31esxVkjRd1vd6uDrwxPXNo6MBJzR14Rku2RZMI6JpZb3gmHXvKroEEtoNiw+skfJzN99OMO+dQ0IAR3ASbxwKKRVtpYy7iLpd1tgCkG2JYTtiVTDudOVs2tQ9EJ9x4YIyV+fHBcSVBPA5uHLx+q47nHDv9Hk8d9Bt97xwmlsuXBxsXt9wUcOIXDs/GoGppkP6Cn8douGmP8vGY7kSOHrVznopq76U7ukeLR7xoRpjonWZ21lY7hb3mYmlXl1PHTi/lEO+MBO+8wLQrmgiXp8Rk0fWgSLMi65Qgxsklpzc98S8k7BDbOLrgjDVcgPD7KlqKSs7vJrvjXr2yL9CpYE+X8UaL8cPoMcJWyBkST/DnR19D6J/lDp84zAsXCnCB+QjdDOi/cxP1exYzdP8J6BbE/3YtDEqP2x9GZVIjy3YAz4Dl1l4FD2x03ejBBoj6cs2vhJZ2JiMiQvHG4QQnOBmYi0bL3VmFVg1m2PnG+bPTMGNyRRkeRzRCyip3oM= root@ev-devel"
